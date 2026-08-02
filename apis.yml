@@ -1,8 +1,30 @@
 aid: terbium-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terbium-labs.png
 name: Terbium Labs
-description: Terbium Labs is a company surfaced as a portfolio company of bloomberg-beta and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Terbium Labs was a Baltimore-based dark web data intelligence and digital risk
+  protection company (founded 2013) best known for Matchlight, a fully private,
+  automated platform that used patented data-fingerprinting to detect a
+  customer's sensitive data (PII, credentials, intellectual property) as it
+  appeared for sale or leak across the open, deep, and dark web. Matchlight was
+  offered through a web console and a REST API, plus an "Unstructured Data Pipe"
+  that streamed raw crawled dark-web source data to partners. Terbium Labs was
+  acquired by Deloitte in June 2021, with its technology, most staff, and
+  customers folded into Deloitte's Detect & Respond cyber practice. The
+  independent company no longer operates and its developer surface at
+  terbiumlabs.com is offline (the domain resolves no A records and there is no
+  public GitHub organization), so no live API artifacts can be harvested.
 url: https://raw.githubusercontent.com/api-evangelist/terbium-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,29 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: deloitte
+x-acquired-date: '2021-06-15'
+x-api-surface: none-live
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Cybersecurity
+- Dark Web
+- Digital Risk Protection
+- Threat Intelligence
+- Data Loss Prevention
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
